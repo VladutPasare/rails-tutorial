@@ -67,5 +67,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '1.1.4'
+  # Updated pg gem for Ruby 3.3 compatibility
+  gem 'pg', '~> 1.6'
 end
